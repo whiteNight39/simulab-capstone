@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow Solutions - Digital Innovation Partners</title>
+    <link rel="stylesheet" href="smb_website_css.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="dark-mode">
+
+    <!-- Navigation -->
+    <nav class="navbar">
+    <div class="nav-container">
+        <!-- Centered Logo -->
+        <a href="smb_website_template.html" class="nav-logo">
+            <i class="fas fa-microscope"></i>
+            <span>SimuLab</span>
+        </a>
+
+        <!-- Hamburger icon -->
+        <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+    </div>
+
+    <!-- Hidden Menu Drawer -->
+    <div class="nav-drawer">
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#experiments" class="nav-link">Experiments</a></li>
+            <li><a href="#howitworks" class="nav-link">How It Works</a></li>
+            <li><a href="#docs" class="nav-link">Docs</a></li>
+            <li><a href="#faqs" class="nav-link">FAQs</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button id="toggle-dark-mode">🌙 Toggle Dark Mode</button>
+    </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Science Simulations. Simplified.</h1>
+            <p>
+                SimuLab lets you run physics and engineering experiments without a physical lab.
+            <br>
+                Built for students, educators, and developers, SimuLab delivers accurate results
+                through a powerful backend API.
+            </p>
+            <div class="hero-buttons">
+                <a href="#howitworks" class="btn btn-primary">Get Started</a>
+                <a href="#experiments" class="btn btn-secondary">View Experiments</a>
+            </div>
+            <p style="margin-top: 2rem; font-style: italic; opacity: 0.8;">
+                No hardware. No setup. Just the science.
+            </p>
+        </div>
+        
+        <div class="hero-image">
+        <div class="tech-illustration">
+        <img src="images/physics.png" alt="Physics Simulation Illustration" style="width: 220px; height: auto; border-radius: 20%;" />
+        </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <!-- <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About TechFlow Solutions</h2>
+                <p>Your trusted partner in digital transformation</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Empowering Businesses Through Technology</h3>
+                    <p>Founded in 2020, TechFlow Solutions has been at the forefront of helping SMBs navigate the digital landscape. Our team of experienced developers, designers, and consultants work closely with clients to deliver tailored solutions that drive growth and efficiency.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">150+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="team-illustration">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="about" class="about">
+    <div class="container">
+        <div class="section-header">
+        <h2>About SimuLab</h2>
+        <p>Making science accessible, one simulation at a time</p>
+        </div>
+        <div class="about-content">
+        <div class="about-text">
+            <h3>Built for the curious. Designed for the future.</h3>
+            <p style="text-align: justify;">
+                SimuLab is a backend-first platform for simulating physics and engineering experiments.
+                Whether you're a student, educator, or developer, SimuLab provides fast, accurate, and
+                accessible results. No lab equipment required.
+            </p>
+            <p style="text-align: justify;">
+                Our goal is to make hands-on science possible anywhere. With a growing library of pre-built
+                simulations and a powerful API interface, SimuLab simplifies learning and experimentation
+                in the classroom, on the web, or through your own apps.
+            </p>
+            <div class="stats">
+            <div class="stat">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Simulations</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Categories</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Lab-Free</span>
+            </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <div class="team-illustration">
+            <i class="fas fa-flask"></i> <!-- or use your physics.png here -->
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Services Section -->
+    <!-- Experiments Section -->
+    <!-- Experiments Section -->
+    <section id="experiments" class="services">
+    <div class="container">
+        <div class="section-header">
+        <h2>Simulations</h2>
+        <p>Explore ready-to-run science simulations across physics and engineering</p>
+        </div>
+
+        <div class="services-grid">
+
+        <!-- Simple Mechanics Category -->
+        <a href="simple-mechanics.html" class="service-card" style="text-decoration: none;">
+            <div class="service-icon"><i class="fas fa-ruler-combined"></i></div>
+            <h3>Simple Mechanics</h3>
+            <p>Simulations for pendulums, free fall, motion, and basic laws of physics.</p>
+        </a>
+
+        <!-- Structural Mechanics Category -->
+        <a href="structural-mechanics.html" class="service-card" style="text-decoration: none;">
+            <div class="service-icon"><i class="fas fa-tools"></i></div>
+            <h3>Structural Mechanics</h3>
+            <p>Explore simulation models for plates, vibration, and deformation analysis.</p>
+        </a>
+
+        <!-- Electromagnetism Category -->
+        <a href="electromagnetism.html" class="service-card" style="text-decoration: none;">
+            <div class="service-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Electromagnetism</h3>
+            <p>Dive into simulations of electric fields, EMF, and circuit theory.</p>
+        </a>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="howitworks" class="services" style="background-color: #f8fafc;">
+    <div class="container">
+        <div class="section-header">
+        <h2>How It Works</h2>
+        <p>SimuLab is designed to make science simulations simple and accessible in just a few steps.</p>
+        </div>
+
+        <div class="services-grid">
+    <div class="service-card">
+        <div class="service-icon"><i class="fas fa-flask"></i></div>
+        <h3>1. Choose a Simulation</h3>
+        <p>Browse our growing library of experiments across physics and engineering topics.</p>
+    </div>
+
+    <div class="service-card">
+        <div class="service-icon"><i class="fas fa-sliders-h"></i></div>
+        <h3>2. Enter Parameters</h3>
+        <p>Input variables like mass, voltage, or pressure depending on the experiment you selected.</p>
+    </div>
+
+    <div class="service-card">
+        <div class="service-icon"><i class="fas fa-bolt"></i></div>
+        <h3>3. Run the Simulation</h3>
+        <p>SimuLab performs the calculations instantly and returns accurate results.</p>
+    </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; margin-top: 2rem;">
+    <div class="service-card" style="max-width: 350px;">
+        <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>4. Analyze Results</h3>
+        <p>Interpret the data, understand the output, and deepen your scientific insight.</p>
+    </div>
+    </div>
+
+
+        <p style="text-align: center; margin-top: 2rem;">
+        <a href="#experiments" class="btn btn-primary">Explore Simulations</a>
+        </p>
+    </div>
+    </section>
+
+    <!-- Docs Section -->
+    <section id="docs" class="services" style="background-color: #f8fafc;">
+    <div class="container">
+        <div class="section-header">
+        <h2>Documentation</h2>
+        <p>Understand how each simulation works — inputs, outputs, and the math behind it.</p>
+        </div>
+
+        <div class="services-grid">
+        <!-- Pendulum -->
+        <div class="service-card">
+            <h3>Simple Pendulum</h3>
+            <p><strong>Inputs:</strong> Length (L), Gravitational Acceleration (g)</p>
+            <p><strong>Outputs:</strong> Period (T), Frequency (f)</p>
+            <p><strong>Formula:</strong> T = 2π √(L/g)</p>
+        </div>
+
+        <!-- Free Fall -->
+        <div class="service-card">
+            <h3>Free Fall</h3>
+            <p><strong>Inputs:</strong> Height (h), g</p>
+            <p><strong>Outputs:</strong> Time (t), Final Velocity (v)</p>
+            <p><strong>Formula:</strong> v = √(2gh), t = √(2h/g)</p>
+        </div>
+
+        <!-- Ohm’s Law -->
+        <div class="service-card">
+            <h3>Ohm's Law</h3>
+            <p><strong>Inputs:</strong> Two of Voltage (V), Current (I), Resistance (R)</p>
+            <p><strong>Outputs:</strong> The third value</p>
+            <p><strong>Formula:</strong> V = IR</p>
+        </div>
+        </div>
+
+        <p style="text-align: center; margin-top: 2rem;">
+        <a href="#experiments" class="btn btn-primary">Go to Simulations</a>
+        </p>
+    </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faqs" class="services">
+    <div class="container">
+        <div class="section-header">
+        <h2>FAQs</h2>
+        <p>Got questions? Here are answers to common things people ask about SimuLab.</p>
+        </div>
+
+        <div class="services-grid">
+
+        <div class="service-card">
+            <h3>Is SimuLab free to use?</h3>
+            <p>Yes. All simulations available now are free to access and use for learning purposes.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Do I need to install anything?</h3>
+            <p>Nope! Everything runs in your browser — no extra downloads or plugins required.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Can I use these simulations offline?</h3>
+            <p>Currently, SimuLab requires internet access. Offline support is in our future roadmap.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Who is SimuLab built for?</h3>
+            <p>Students, teachers, and self-learners who want to explore science concepts interactively.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Can I contribute or request a new simulation?</h3>
+            <p>We’re working on opening contributions soon. In the meantime, you can reach out via the contact form!</p>
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <!-- <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Real feedback from businesses we've helped transform</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"TechFlow Solutions transformed our outdated website into a modern, user-friendly platform that increased our online sales by 300%. Their team is professional, responsive, and truly understands small business needs."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>CEO, Bloom Boutique</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"The mobile app they developed for our restaurant has streamlined our ordering process and improved customer satisfaction. The project was delivered on time and within budget."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <span>Owner, Dragon Wok</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to start your digital transformation journey?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Tech Street, Innovation District<br>Lagos, Nigeria 100001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+234 701 234 5678</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>hello@techflowsolutions.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section> -->
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="section-header">
+      <h2>Contact Us</h2>
+      <p>Have questions, suggestions, or feedback? We'd love to hear from you.</p>
+    </div>
+
+    <div class="contact-content">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h3>Location</h3>
+            <p>Lagos, Nigeria</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h3>Email</h3>
+            <p>hello@simulab.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h3>Phone</h3>
+            <p>+234 701 234 5678</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Subject" required />
+        </div>
+        <div class="form-group">
+          <textarea rows="6" placeholder="Your Message" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i>
+                        <span>SimuLab</span>
+                    </div>
+                    <p>Making science accessible, one simulation at a time.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#experiments">Experiments</a></li>
+                        <li><a href="index.html#howitworks">How It Works</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Simulations</h3>
+                    <ul>
+                        <li><a href="simple-mechanics.html">Simple Mechanics</a></li>
+                        <li><a href="structural-mechanics.html">Structural Mechanics</a></li>
+                        <li><a href="electromagnetism.html">Electromagnetism</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info-footer">
+                        <p><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</p>
+                        <p><i class="fas fa-phone"></i> +234 701 234 5678</p>
+                        <p><i class="fas fa-envelope"></i> hello@simulab.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SimuLab. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+    // Mobile menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navDrawer = document.querySelector('.nav-drawer');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navDrawer.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navDrawer.classList.remove('active');
+    }));
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+            });
+        }
+        });
+    });
+
+    // Form submission handler
+    const contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        alert('Thanks for reaching out! We\'ll get back to you soon.');
+        this.reset();
+        });
+    }
+
+    // Add scroll effect to navbar
+    window.addEventListener('scroll', () => {
+        const navbar = document.querySelector('.navbar');
+        if (window.scrollY > 100) {
+        navbar.classList.add('scrolled');
+        } else {
+        navbar.classList.remove('scrolled');
+        }
+    });
+
+    // 🌙 Dark mode: apply saved preference on page load
+    const savedMode = localStorage.getItem("simulab-theme");
+    if (savedMode === "dark") {
+        document.body.classList.add("dark-mode");
+    } else if (savedMode === "light") {
+        document.body.classList.remove("dark-mode");
+    }
+
+    // 🌗 Dark mode toggle and save preference
+    const toggleDark = document.getElementById("toggle-dark-mode");
+    if (toggleDark) {
+        toggleDark.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+        const mode = document.body.classList.contains("dark-mode") ? "dark" : "light";
+        localStorage.setItem("simulab-theme", mode);
+        });
+    }
+
+    // Close nav drawer when clicking outside
+    document.addEventListener('click', function (e) {
+        if (!hamburger.contains(e.target) && !navDrawer.contains(e.target)) {
+        hamburger.classList.remove('active');
+        navDrawer.classList.remove('active');
+        }
+    });
+    </script>
+
+
+
+    </script>
+</body>
+</html>
