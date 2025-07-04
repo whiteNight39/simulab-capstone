@@ -679,7 +679,7 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .hamburger {
+    /* .hamburger {
         display: flex;
     }
 
@@ -715,7 +715,7 @@ body {
 
     .hamburger.active span:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-    }
+    } */
 
     .hero {
         flex-direction: column;
@@ -881,8 +881,8 @@ body.dark-mode {
 
 .dark-mode .nav-link:hover,
 .dark-mode .nav-link::after {
-    color: #90cdf4;
-    background-color: #90cdf4;
+    color: #1d375a;
+    background-color: #1e1e1e;
 }
 
 .dark-mode .hamburger span {
